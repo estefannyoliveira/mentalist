@@ -12,7 +12,20 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
   }
+
+  main{
+    max-width: 450px;
+    min-width: 290px;
+    margin: auto;
+   
+
+  }
   
+  h1{
+    background-color: rgba(180, 160, 221, 0.465);
+    padding: 5px;
+    border-radius: 10px;
+  }
   
   .container {
     text-align: center;
@@ -22,6 +35,7 @@ body {
   .page-title {
     color: #ffffff;
     margin: 0 0 5px;
+    margin-top: 15px;
   }
   
   .page-subtitle {
@@ -45,13 +59,15 @@ body {
   }
   
   img {
+    width: 100%;
     max-height: 350px;
   }
   
   button{
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    width: 120px;
+    width: 200px;
     height: 35px;
     border: none;
     border-radius: 20px;
