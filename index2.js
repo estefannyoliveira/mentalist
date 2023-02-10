@@ -3,7 +3,7 @@ var attemps = 0;
 
 function refresh(){
     // gera um numero aleatorio
-    
+    attemps = 0;
     numberToFind = parseInt(Math.random()*1001);
 
     console.log(numberToFind)
@@ -26,7 +26,8 @@ function verifyNumber(){
         alert("Errou... o número secreto é maior!")
     }
     else{
-        alert("Parabéns, você acertou!! Com "+attemps+" erros")
+        alert("Parabéns, você acertou!! Com "+attemps+" erros");
+        refresh()
     }
  
 }
