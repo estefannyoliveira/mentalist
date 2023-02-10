@@ -9,9 +9,11 @@ var quantChutes = 0;
 while (chute != numeroSecreto) {
   quantChutes = quantChutes + 1;
   var chute = prompt("digite um número entre 0 e 1000:");
+ 
   if (chute == numeroSecreto) {
     alert("Acertou!");
-  } else if (chute > numeroSecreto) {
+  } 
+  else if (chute > numeroSecreto) {
     alert("Errou... o número secreto é menor");
   } else if (chute < numeroSecreto) {
     alert("Errou... o número secreto é maior");
